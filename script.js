@@ -1,5 +1,5 @@
 function checkDate() {
-    const targetDate = new Date("2024-10-17"); // Replace with your desired date
+    const targetDate = new Date("2024-10-16"); // Replace with your desired date
 
     if (Date.now() >= targetDate.getTime()) {
         showNotification();
